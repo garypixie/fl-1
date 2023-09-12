@@ -1,12 +1,15 @@
 module.exports = {
-  prefix: 'twcss-',
+  prefix: 'pm-',
+
   content: [
     './layout/*.liquid',
     './templates/*.liquid',
     './templates/customers/*.liquid',
     './sections/*.liquid',
     './snippets/*.liquid',
+    './html/*.html',
   ],
+
   theme: {
     screens: {
       sm: '320px',

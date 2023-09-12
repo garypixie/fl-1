@@ -475,40 +475,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia: ;
 }
 
-.twcss-container {
+.pm-mb-4 {
+  margin-bottom: 1rem;
+}
+
+.pm-flex {
+  display: flex;
+}
+
+.pm-h-12 {
+  height: 3rem;
+}
+
+.pm-w-full {
   width: 100%;
 }
 
-@media (min-width: 320px) {
-  .twcss-container {
-    max-width: 320px;
-  }
-}
-
-@media (min-width: 750px) {
-  .twcss-container {
-    max-width: 750px;
-  }
-}
-
-@media (min-width: 990px) {
-  .twcss-container {
-    max-width: 990px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .twcss-container {
-    max-width: 1440px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .twcss-container {
-    max-width: 1920px;
-  }
-}
-
-.twcss-block {
-  display: block !important;
+.pm-bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
