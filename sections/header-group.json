@@ -40,7 +40,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+   // "announcement-bar",
     "header"
   ]
 }
