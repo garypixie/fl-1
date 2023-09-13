@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sf-green-bg {
+  background: green;
+}
+
+.sf-grey-bg {
+  background: #f2f4f5;
+}

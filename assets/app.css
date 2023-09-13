@@ -475,23 +475,87 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia: ;
 }
 
-.pm-mb-4 {
-  margin-bottom: 1rem;
-}
-
-.pm-flex {
-  display: flex;
-}
-
-.pm-h-12 {
-  height: 3rem;
-}
-
-.pm-w-full {
+.pm-container {
   width: 100%;
 }
 
-.pm-bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+@media (min-width: 320px) {
+  .pm-container {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 750px) {
+  .pm-container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 990px) {
+  .pm-container {
+    max-width: 990px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .pm-container {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .pm-container {
+    max-width: 1920px;
+  }
+}
+
+.pm-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pm-ml-5 {
+  margin-left: 1.25rem;
+}
+
+.pm-inline {
+  display: inline;
+}
+
+.pm-list-none {
+  list-style-type: none;
+}
+
+.pm-p-5 {
+  padding: 1.25rem;
+}
+
+.pm-p-10 {
+  padding: 2.5rem;
+}
+
+.pm-text-center {
+  text-align: center;
+}
+
+.pm-text-right {
+  text-align: right;
+}
+
+.sf-green-bg {
+  background: green;
+}
+
+.sf-grey-bg {
+  background: #f2f4f5;
+}
+
+@media (min-width: 750px) {
+  .md\:pm-ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .md\:pm-text-right {
+    text-align: right;
+  }
 }
